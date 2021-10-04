@@ -6,7 +6,7 @@ namespace Day15_HashTable_Assignment
 {
     class UC1_MyMapNode<K, V> //Key-Value Pair HashTable
     {
-        Variables
+        //Variables
         private readonly int size;
         private readonly LinkedList<KeyValue<K, V>>[] items; //Passing the Keyvalue object to the Linkedlist
         public UC1_MyMapNode(int size)
@@ -50,7 +50,7 @@ namespace Day15_HashTable_Assignment
             return default(V);
         }
     }
-        Class KeyValue
+        //Class KeyValue
         public struct KeyValue<k, v>
         {
         public k Key { get; set; }
